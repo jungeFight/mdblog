@@ -10,6 +10,24 @@
   version = "v0.3.1"
 
 [[projects]]
+  digest = "1:bf8c62eedbe26752261c9dfdb34127b5637a7c91f5397116961a5cd35e0fc571"
+  name = "github.com/broqiang/mdblog"
+  packages = [
+    "app",
+    "app/config",
+    "app/helper",
+    "app/helper/markdown",
+    "app/http/controllers",
+    "app/http/midderware",
+    "app/mdfile",
+    "app/mylog",
+    "app/routes",
+  ]
+  pruneopts = "UT"
+  revision = "f520ac96e03157808cdcfc499539ce618f5a0503"
+  version = "v1.1.0"
+
+[[projects]]
   digest = "1:36fe9527deed01d2a317617e59304eb2c4ce9f8a24115bcc5c2e37b3aee5bae4"
   name = "github.com/gin-contrib/sse"
   packages = ["."]
@@ -113,6 +131,15 @@
   analyzer-version = 1
   input-imports = [
     "github.com/BurntSushi/toml",
+    "github.com/broqiang/mdblog/app",
+    "github.com/broqiang/mdblog/app/config",
+    "github.com/broqiang/mdblog/app/helper",
+    "github.com/broqiang/mdblog/app/helper/markdown",
+    "github.com/broqiang/mdblog/app/http/controllers",
+    "github.com/broqiang/mdblog/app/http/midderware",
+    "github.com/broqiang/mdblog/app/mdfile",
+    "github.com/broqiang/mdblog/app/mylog",
+    "github.com/broqiang/mdblog/app/routes",
     "github.com/gin-gonic/gin",
     "github.com/microcosm-cc/bluemonday",
     "golang.org/x/net/html",
